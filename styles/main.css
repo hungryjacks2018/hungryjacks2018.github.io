@@ -1,0 +1,489 @@
+html, body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,li,button{
+  font-family: 'Lilita One', cursive;
+  color: #fff;
+}
+h1, h2{
+  font-size: 4.5em;
+  line-height: 1em;
+}
+i{
+  padding: 0 20px;
+  color: #d0021b;
+}
+p{
+  font-size: 18px;
+}
+img{
+  width: 100%;
+}
+.row{
+  margin: 0;
+}
+.navbar-toggler{
+  background:#fff;
+}
+.navbar-togger-icon svg{
+  font-size: 40px;
+}
+
+header {
+  background: #d0021b;
+}
+.navbar-brand{
+  margin:0;
+  padding:0;
+}
+.navbar a{
+  width: 140px;
+  color:#fff;
+}
+.navbar a:hover{
+  color: #efefef;
+}
+/* Showcase */
+.showcase{
+  padding: 100px 0;
+  background: url('../images/pexels-photo-1199960.jpeg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* The image was taken from pexels.com */
+}
+.showcase h1{
+  padding: 0;
+  margin: 0;
+  line-height: 1em;
+}
+hr{
+  background: #fff;
+  height: 16px;
+  width: 80%;
+}
+.showcase p{
+  color: #d0021b;
+  padding: 40px 120px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.showcase a{
+  text-decoration: none;
+  font-size: 24px;
+  color: #fff;
+  font-family: 'Lilita One', cursive;
+}
+.carousel{
+  margin-bottom: 80px;
+  width: 100%;
+}
+.carousel .col-6{
+  padding: 0;
+  margin:0;
+}
+.carousel .col-6 img{
+  width: 100%;
+}
+
+.col2 video{
+  width: 160%;
+  display: inline-block;
+  vertical-align: baseline;
+}
+.col2 .ptop{
+  font-family: 'Lilita One', cursive;
+  color:#d0021b;
+  padding: 10px;
+  font-size: 30px;
+}
+.col2 h2{
+  color:#333;
+}
+.col2 hr{
+  background:#333;
+  height: 10px;
+  margin: 0;
+}
+button {
+  background: none;
+  border: none;
+}
+
+.button {
+  position: relative;
+  z-index: 5;
+  display: inline-block;
+  min-width: 258px;
+  width: auto;
+  overflow: hidden;
+  padding: 0.9em;
+  font-size: 22px;
+  line-height: 1.55em;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-image: url("../images/button-red.svg");
+  cursor: pointer;
+  transition: 800ms ease;
+  outline: none;
+}
+.button:hover{
+  transform: scale(1.1, 1.1);
+  transition: 800ms ease;
+}
+.col2 .bg-light{
+  padding: 30px 0;
+}
+.shake{
+  background: #d0021b;
+  color: #fff;
+}
+.shake button{
+  background: url(../images/button-black.svg)
+}
+.crew{
+  color:#fff;
+}
+.crew .row .col-12:first-child{
+  background: #333 url('../images/tile-bg-overlay-bg.jpg') center no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px 0;
+}
+.crew .row .col-12:nth-child(2){
+  position: relative;
+  background: #333 url('../images/JoinTheCrew_1.jpg') center no-repeat;
+  padding: 100px 0;
+  background-size: cover;
+}
+.crew .row .col-12 p{
+  position: relative;
+  z-index: 5;
+  padding: 20px 80px;
+}
+.crew h2{
+  color:#fff;
+  position: relative;
+  z-index: 5;
+}
+
+.overlay{
+  background: #000;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.8;
+  height: 100%;
+  z-index: 1;
+}
+
+/* CTA */
+.CTA{
+  background: #d0021b;
+  padding: 0;
+  font-size: 80%;
+  color:#fff;
+}
+.CTA .col-6{
+  height: 100%;
+  margin: 0;
+}
+.CTA{
+  max-height: 160px;
+}
+.CTA img{
+  margin-top: -20px;
+}
+.apps{
+  height: 100%; 
+}
+.menuheader{
+  background: url('../images/menu1.jpg') left no-repeat;
+  background-size: cover;
+  color:#fff;
+  padding: 80px 10px;
+}
+.menuheader .col-10{
+  max-width: 500px;
+}
+.menuheader h2{
+  color:#fff;
+  font-size: 60px;
+}
+.menuheader hr{
+  background: #fff;
+}
+.menu{
+  padding: 80px 0; 
+}
+.menu .label{
+  font-family: 'Lilita One', cursive;
+  font-size: 24px;
+  text-align: center;
+}
+.img{
+  max-height: 180px;
+  transition: 1s ease-in-out;
+}
+.menu img{
+  height: 100%;
+}
+.menu .img:hover{
+  transform: scale(1.1, 1.1);
+  transition: 1s ease-in-out;
+}
+.menu .col-6{
+  padding: 20px;
+}
+.whybetter{
+  background: url('../images/menu.jpg') left no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+  position: relative;
+}
+.whybetter .overlay{
+  background: #000;
+  position: absolute;
+  top:0;
+  left: 0;
+  opacity: 0.4;
+  height: 100%;
+  width: 100%;
+}
+.whybetter .container{
+  max-width: 800px;
+  z-index: 5;
+  position: relative;
+}
+.whybetter p{
+  color: #fff;
+}
+.betterheader{
+  background: url('../images/betterfoodbg.png') center no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 80px 0;
+}
+.betterheader .container{
+  position: relative;
+  z-index: 5;
+}
+.betterheader h2{
+  margin: 0;
+  line-height: 1em;
+}
+.underlined{
+  border-bottom: 10px solid #fff;
+  display: inline-block;
+}
+.betterheader p{
+  color:#fff;
+  padding-top: 40px;
+}
+.lightbox{
+  position: relative;
+}
+.lightbox img{
+  width: 100%;
+  position: relative;
+}
+.lightbox svg{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 80px;
+}
+.perfect{
+  padding: 60px 0;
+}
+.perfect h2{
+  color: #6f3d30;
+}
+.faded{
+  color: #c1b1a9;
+}
+.ulikeit{
+  padding: 60px 0;
+}
+.ulikeit h2{
+  color: #6f3d30;
+}
+.col2 .underlined{
+  border-bottom: 10px solid #6f3d30;
+}
+.communityhero{
+  background: url(../images/community-hero.jpg) center no-repeat;
+  background-size: cover;
+}
+.community .lightbox img{
+  width: 80%;
+}
+.community h2{
+  font-size: 4em;
+}
+.community{
+  padding: 60px 0;
+}
+.community img{
+  margin: 8px;
+}
+.jobsearchhero{
+  background: url(../images/job-search-hero-bg.jpg) center no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+.team .col-10:nth-child(1){
+  background: url('../images/team1.jpg') center no-repeat; 
+  background-size: cover;
+  position: relative;
+}
+.team .col-10:nth-child(2){
+  background: url('../images/team2.jpg') center no-repeat; 
+  background-size: cover;
+  position: relative;
+}
+.team .col-10:nth-child(3){
+  background: url('../images/team3.jpg') center no-repeat; 
+  background-size: cover;
+  position: relative;
+}
+.team .col-10:nth-child(4){
+  background: url('../images/team4.jpg') center no-repeat; 
+  background-size: cover;
+  position: relative;
+}
+.teammember{ 
+  min-height: 400px; 
+  padding: 40px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 150%;
+  position: relative;
+  z-index: 5;
+  padding-right: 80px;
+}
+.teammember > *{
+  position: relative;
+  z-index: 10;
+}
+.teammember h3{
+  margin-bottom: 80px;
+}
+.teammember .profile-info{
+  color: #fff;
+}
+
+.team .overlay{
+  opacity: 0.2;
+}
+.modal h2, .modal h3, .modal ul li{
+  color: #444;
+}
+.modal li{
+  font-family: 'Open sans', sans-serif;
+}
+.whyus{
+  padding: 60px 0;
+}
+.whyus h2{
+  color: #444;
+  margin-bottom: 60px;
+  font-size: 250%;
+}
+.whyus h3{
+  color: #444;
+  padding: 40px;
+}
+.whyus img{
+  border-radius: 50%;
+}
+.getstarted{
+  margin: 30px;
+  padding: 20px;
+  border-radius: 12px;
+}
+.getstarted h3{
+  color: #333;
+  padding-bottom: 30px;
+}
+.apphero{
+  background: url(../images/apphero.jpg) center no-repeat;
+  background-size: cover;
+}
+.appbanner{
+  background: #d0021b;
+  color: #fff;
+  padding: 60px 0; 
+}
+.appbanner .col-md-4 img{
+  height: 100%;
+}
+.perks{
+  padding: 60px 0;
+}
+.perks h2, .perks h3{
+  color: #333;
+  padding: 40px;
+}
+.thankyou{
+  height: 100vh;
+  width: 100%;
+  background: url('../images/apphero.jpg') no-repeat center;
+  background-size: cover;
+  position: relative;
+}
+.thankyou h2, .thankyou p{
+  position: relative;
+  z-index: 15;
+  color: #fff;
+  margin: 20px;
+}
+.thankyou .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+/* Footer */
+footer{
+  background: #333;
+  color:#fff;
+  padding: 60px 0;
+}
+footer ul li{
+  list-style-type: none;
+}
+footer svg{
+  margin: 0 6px;
+  font-size: 36px;
+}
+footer img{
+  max-width: 100px;
+}
+footer .col-12{
+  margin: 12px 0;
+} 
+/* Responsiveness */
+@media (max-width: 992px){
+  .col2 video{
+    width:100%;
+  }
+  h2{
+    font-size: 40px;
+  }
+  .label{
+    font-size: 18px;
+  }
+  .CTA .justify-content-center img{
+    display: none;
+  }
+}
